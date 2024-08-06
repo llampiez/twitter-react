@@ -1,0 +1,31 @@
+.twitter-card{
+  width: 350px;
+  background-color: #16181c;
+  border-radius: 16px;
+  font-family: Arial;
+}
+
+.twitter-card__title h2{
+  margin: 0px;
+  color: white;
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.twitter-card__title{
+  padding: 12px 16px;
+}
+
+.twitter-card__more{
+  text-decoration: none;
+  display: block;
+  color: #1b7dbf;
+  font-weight: 400;
+  font-size: 15px;
+  padding: 16px
+}
+
+.twitter-card__more:hover{
+  background-color: #1d1f23;
+  border-radius: 0px 0px 16px 16px;
+}

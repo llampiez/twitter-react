@@ -1,0 +1,117 @@
+.user-card {
+  padding: 12px 16px;
+  cursor: pointer;
+  display: flex;
+}
+
+.user-card:hover {
+  background-color: #1d1f23;
+}
+
+.user-card__img {
+  border-radius: 50%;
+  margin-right: 8px;
+  width: 40px;
+  height: 40px;
+}
+
+.user-card__img:hover {
+  opacity: 0.8;
+}
+
+.user-card__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.user-card__container__names {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+}
+
+.user-card__container__names__name {
+  color: white;
+  font-weight: bold;
+}
+
+.user-card__container__names__name:hover {
+  color: white;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+
+.user-card__container__names__tag {
+  color: #5c6065;
+}
+
+.user-card__container_seguir {
+  display: flex;
+  align-items: center;
+  padding: 0px 16px;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: #eff3f4;
+  border-radius: 50px;
+  height: 80%;
+}
+
+.user-card__container_seguir:hover {
+  opacity: 0.8;
+}
+
+.user-card__container_siguiendo {
+  border: 1px solid white;
+  display: flex;
+  align-items: center;
+  padding: 0px 16px;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: transparent;
+  color: white;
+  border-radius: 50px;
+  height: 80%;
+}
+
+.user-card__container_siguiendo:hover {
+  border: 1px solid red;
+  display: flex;
+  align-items: center;
+  padding: 0px 16px;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: rgba(255, 0, 0, 0.144);
+  color: red;
+  border-radius: 50px;
+  height: 80%;
+}
+
+.user-card__container_siguiendo:hover {
+  border: 1px solid red;
+  display: flex;
+  align-items: center;
+  padding: 0px 16px;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: rgba(255, 0, 0, 0.144);
+  color: red;
+  border-radius: 50px;
+  height: 80%;
+}
+
+.user-card__container_siguiendo:hover .prueba {
+  display: inline
+}
+
+.user-card__container_siguiendo:hover .prueba2 {
+  display: none
+}
+
+.prueba {
+  display: none;
+}
+
